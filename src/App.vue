@@ -8,7 +8,7 @@
     <HeaderFive v-else-if="currentUrl == '/bigdata-analytics'"></HeaderFive>
     <div v-else-if="currentUrl == '/not-found' || currentUrl == '/coming-soon'"></div>
     <Header v-else></Header>
-    <PreLoader v-if="isLoading" />
+    <!-- <PreLoader v-if="isLoading" /> -->
     <router-view />
     <div v-if="currentUrl == '/not-found' || currentUrl == '/coming-soon'"></div>
     <Footer v-else></Footer>

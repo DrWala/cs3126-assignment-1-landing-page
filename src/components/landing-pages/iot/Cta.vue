@@ -16,7 +16,27 @@
               dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan
               lacus vel facilisis.
             </p>
-            <a href="#" class="btn btn-primary">Get Started!</a>
+            <div class="banner-form ml-3">
+              <form>
+                <div class="form-group">
+                  <label>Username</label>
+                  <input type="text" class="form-control" placeholder="Enter username" />
+                </div>
+
+                <div class="form-group">
+                  <label>Email</label>
+                  <input type="email" class="form-control" placeholder="Enter your email" />
+                </div>
+
+                <div class="form-group">
+                  <label>Password</label>
+                  <input type="password" class="form-control" placeholder="Create a password" />
+                </div>
+
+                <button type="submit" class="btn btn-primary">Register Now</button>
+              </form>
+            </div>
+            <!-- <a href="#" class="btn btn-primary">Get Started!</a> -->
           </div>
         </div>
       </div>
