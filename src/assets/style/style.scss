@@ -872,7 +872,7 @@ Main Banner CSS
   position: relative;
   height: 910px;
   z-index: 1;
-  background: transparent url(../img/banner-bg1.jpg) right top no-repeat;
+  background: transparent url(./img/banner-bg1.jpg) right top no-repeat;
 
   .hero-content {
     h1 {
@@ -1407,7 +1407,7 @@ About CSS
 Why Choose US CSS
 =================================================*/
 .why-choose-us {
-  background: transparent url(../img/banner-bg1.jpg) right top no-repeat;
+  background: transparent url(./img/banner-bg1.jpg) right top no-repeat;
   position: relative;
   z-index: 1;
 
@@ -2548,7 +2548,7 @@ Fun Facts CSS
     position: relative;
     z-index: 1;
     background: {
-      image: url(../../assets/img/bigdata-analytics/funfacts-bg.jpg);
+      image: url(./img/bigdata-analytics/funfacts-bg.jpg);
       position: center center;
       size: cover;
       repeat: no-repeat;
@@ -3330,7 +3330,7 @@ Feedback CSS
     height: 260px;
     content: "";
     z-index: -1;
-    background-image: url(../img/layer.png);
+    background-image: url(./img/layer.png);
   }
   &::after {
     position: absolute;
@@ -3340,7 +3340,7 @@ Feedback CSS
     height: 260px;
     content: "";
     z-index: -1;
-    background-image: url(../img/layer.png);
+    background-image: url(./img/layer.png);
   }
   .carousel__pagination {
     position: absolute;
@@ -4022,7 +4022,7 @@ Page Title CSS
 .page-title-area {
   position: relative;
   z-index: 1;
-  background: transparent url(../img/banner-bg1.jpg) right top no-repeat;
+  background: transparent url(./img/banner-bg1.jpg) right top no-repeat;
   padding: {
     top: 190px;
     bottom: 100px;
@@ -4938,13 +4938,13 @@ Sidebar Widget CSS
             position: center center !important;
           }
           &.bg1 {
-            background-image: url(../img/blog-image/7.jpg);
+            background-image: url(./img/blog-image/7.jpg);
           }
           &.bg2 {
-            background-image: url(../img/blog-image/8.jpg);
+            background-image: url(./img/blog-image/8.jpg);
           }
           &.bg3 {
-            background-image: url(../img/blog-image/9.jpg);
+            background-image: url(./img/blog-image/9.jpg);
           }
         }
       }
@@ -5366,7 +5366,7 @@ Coming Soon CSS
   z-index: 1;
   height: 100vh;
   background: {
-    image: url(../img/coming-soon.jpg);
+    image: url(./img/coming-soon.jpg);
     position: center center;
     size: cover;
     repeat: no-repeat;
@@ -5547,7 +5547,7 @@ Coming Soon CSS
       position: absolute;
       left: 50%;
       transform: translateX(-50%);
-      background: url(../img/oops-bg.jpg) no-repeat;
+      background: url(./img/oops-bg.jpg) no-repeat;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background: {
@@ -5880,22 +5880,22 @@ Repair Services CSS
     repeat: no-repeat;
   }
   &.bg1 {
-    background-image: url(../img/repair-services-img/1.jpg);
+    background-image: url(./img/repair-services-img/1.jpg);
   }
   &.bg2 {
-    background-image: url(../img/repair-services-img/2.jpg);
+    background-image: url(./img/repair-services-img/2.jpg);
   }
   &.bg3 {
-    background-image: url(../img/repair-services-img/3.jpg);
+    background-image: url(./img/repair-services-img/3.jpg);
   }
   &.bg4 {
-    background-image: url(../img/repair-services-img/4.jpg);
+    background-image: url(./img/repair-services-img/4.jpg);
   }
   &.bg5 {
-    background-image: url(../img/repair-services-img/5.jpg);
+    background-image: url(./img/repair-services-img/5.jpg);
   }
   &.bg6 {
-    background-image: url(../img/repair-services-img/6.jpg);
+    background-image: url(./img/repair-services-img/6.jpg);
   }
   &::before {
     position: absolute;
@@ -6675,7 +6675,7 @@ ML Main Banner CSS
     bottom: 140px;
   }
   background: {
-    image: url(../img/banner-bg.jpg);
+    image: url(./img/banner-bg.jpg);
     position: bottom right;
     size: cover;
     repeat: no-repeat;
@@ -6715,7 +6715,7 @@ ML Main Banner CSS
     bottom: 240px;
   }
   background: {
-    image: url(../img/banner-bg.jpg);
+    image: url(./img/banner-bg.jpg);
     position: bottom right;
     size: cover;
     repeat: no-repeat;
@@ -7954,7 +7954,7 @@ Agency CTA CSS
   position: relative;
   z-index: 1;
   background: {
-    image: url(../img/agency-image/gradient-bg.jpg);
+    image: url(img/agency-image/gradient-bg.jpg);
     position: center center;
     size: cover;
     repeat: no-repeat;
@@ -9356,13 +9356,13 @@ Agency Portfolio Main Banner CSS
     repeat: no-repeat;
   }
   &.portfolio-banner-bg1 {
-    background-image: url(../img/agency-portfolio-main-banner/img1.jpg);
+    background-image: url(./img/agency-portfolio-main-banner/img1.jpg);
   }
   &.portfolio-banner-bg2 {
-    background-image: url(../img/agency-portfolio-main-banner/img2.jpg);
+    background-image: url(./img/agency-portfolio-main-banner/img2.jpg);
   }
   &.portfolio-banner-bg3 {
-    background-image: url(../img/agency-portfolio-main-banner/img3.jpg);
+    background-image: url(./img/agency-portfolio-main-banner/img3.jpg);
   }
 }
 .portfolio-banner-content {
@@ -9592,7 +9592,7 @@ Creative Area CSS
 .creative-area {
   height: 650px;
   background: {
-    image: url(../img/creative-bg.jpg);
+    image: url(./img/creative-bg.jpg);
     position: center center;
     repeat: no-repeat;
     attachment: fixed;
@@ -9662,7 +9662,7 @@ Big Data Analytics Banner CSS
 ===============================*/
 .bigdata-analytics-banner {
   background: {
-    image: url(../img/bigdata-analytics/main-banner.jpg);
+    image: url(./img/bigdata-analytics/main-banner.jpg);
     position: center center;
     size: cover;
     repeat: no-repeat;
