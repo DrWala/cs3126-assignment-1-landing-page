@@ -17,26 +17,26 @@
 import Banner from "./iot/Banner";
 import Services from "./iot/Services";
 import Cta from "./iot/Cta";
-import Funfacts from "./iot/Funfacts";
-import Features from "./iot/Features";
-import FeaturesTwo from "./iot/FeaturesTwo";
-import Team from "./iot/Team";
-import Feedback from "./iot/Feedback";
-import WhyChooseUs from "./iot/WhyChooseUs";
-import Blog from "./iot/Blog";
+// import Funfacts from "./iot/Funfacts";
+// import Features from "./iot/Features";
+// import FeaturesTwo from "./iot/FeaturesTwo";
+// import Team from "./iot/Team";
+// import Feedback from "./iot/Feedback";
+// import WhyChooseUs from "./iot/WhyChooseUs";
+// import Blog from "./iot/Blog";
 export default {
   name: "Iot",
   components: {
     Banner,
     Services,
     Cta,
-    Funfacts,
-    Features,
-    FeaturesTwo,
-    Team,
-    Feedback,
-    WhyChooseUs,
-    Blog,
+    // Funfacts,
+    // Features,
+    // FeaturesTwo,
+    // Team,
+    // Feedback,
+    // WhyChooseUs,
+    // Blog,
   },
 };
 </script>
