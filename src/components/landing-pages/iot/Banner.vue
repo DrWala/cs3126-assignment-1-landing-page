@@ -2,13 +2,9 @@
   <div class="iot-main-banner">
     <div class="container">
       <div class="iot-banner-content">
-        <span>Internet of Things</span>
-        <h2>We get it! IoT growth is happening</h2>
-        <p>
-          At this point, it may seem like overkill to point out the continued growth bound to happen in the Internet of
-          Things space for the years to come and how it will create new opportunities for companies, both established
-          and new, from a hardware and software perspective.
-        </p>
+        <!-- <span>Get your seat</span> -->
+        <h2>Reserve a seat at a study spot in NUS!</h2>
+        <p>Seatigo is here to help you reserve a seat at a study spot. Stop searching and start studying!</p>
         <a href="#" class="btn btn-primary">Get Started</a>
       </div>
 

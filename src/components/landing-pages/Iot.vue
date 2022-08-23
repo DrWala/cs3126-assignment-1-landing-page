@@ -1,7 +1,6 @@
 <template>
   <div>
     <Banner></Banner>
-    <Partner></Partner>
     <Services></Services>
     <Cta></Cta>
     <Funfacts></Funfacts>
@@ -16,7 +15,6 @@
 
 <script>
 import Banner from "./iot/Banner";
-import Partner from "./iot/Partner";
 import Services from "./iot/Services";
 import Cta from "./iot/Cta";
 import Funfacts from "./iot/Funfacts";
@@ -30,7 +28,6 @@ export default {
   name: "Iot",
   components: {
     Banner,
-    Partner,
     Services,
     Cta,
     Funfacts,
