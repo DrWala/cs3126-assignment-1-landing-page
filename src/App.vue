@@ -11,7 +11,7 @@
     <!-- <PreLoader v-if="isLoading" /> -->
     <router-view />
     <div v-if="currentUrl == '/not-found' || currentUrl == '/coming-soon'"></div>
-    <Footer v-else></Footer>
+    <!-- <Footer v-else></Footer> -->
   </div>
 </template>
 
@@ -21,7 +21,6 @@ import HeaderTwo from "./components/layout/HeaderTwo";
 import HeaderThree from "./components/layout/HeaderThree";
 import HeaderFour from "./components/layout/HeaderFour";
 import HeaderFive from "./components/layout/HeaderFive";
-import Footer from "./components/layout/Footer";
 
 export default {
   name: "app",
@@ -31,7 +30,6 @@ export default {
     HeaderThree,
     HeaderFour,
     HeaderFive,
-    Footer,
   },
   data() {
     return {

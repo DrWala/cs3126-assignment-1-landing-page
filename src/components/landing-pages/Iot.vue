@@ -3,13 +3,13 @@
     <Banner></Banner>
     <Services></Services>
     <Cta></Cta>
-    <Funfacts></Funfacts>
+    <!-- <Funfacts></Funfacts>
     <Features></Features>
     <FeaturesTwo></FeaturesTwo>
     <Team></Team>
     <Feedback></Feedback>
     <WhyChooseUs></WhyChooseUs>
-    <Blog></Blog>
+    <Blog></Blog> -->
   </div>
 </template>
 

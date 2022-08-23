@@ -19,7 +19,7 @@
             <span class="icon-bar bottom-bar"></span>
           </div>
 
-          <div class="collapse navbar-collapse" :class="{ show: active }">
+          <!-- <div class="collapse navbar-collapse" :class="{ show: active }">
             <ul class="navbar-nav nav ml-auto">
               <li class="nav-item">
                 <a href="#" class="nav-link"> Home <vue-feather type="chevron-down"></vue-feather> </a>
@@ -220,16 +220,16 @@
                 <router-link to="/contact" class="nav-link">Contact</router-link>
               </li>
             </ul>
-          </div>
+          </div> -->
 
-          <div class="others-option">
+          <!-- <div class="others-option">
             <router-link to="/cart" class="cart-wrapper-btn">
               <vue-feather type="shopping-cart"></vue-feather>
               <span>{{ shoppingCart.length }}</span>
             </router-link>
             <a href="#" class="btn btn-light">Support</a>
             <a href="#" class="btn btn-primary">Login</a>
-          </div>
+          </div> -->
         </nav>
       </div>
     </div>
