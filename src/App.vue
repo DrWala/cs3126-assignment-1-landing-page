@@ -22,7 +22,6 @@ import HeaderThree from "./components/layout/HeaderThree";
 import HeaderFour from "./components/layout/HeaderFour";
 import HeaderFive from "./components/layout/HeaderFive";
 import Footer from "./components/layout/Footer";
-import PreLoader from "./components/layout/PreLoader";
 
 export default {
   name: "app",
@@ -33,7 +32,6 @@ export default {
     HeaderFour,
     HeaderFive,
     Footer,
-    PreLoader,
   },
   data() {
     return {
