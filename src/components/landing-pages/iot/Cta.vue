@@ -1,5 +1,5 @@
 <template>
-  <div class="iot-cta-area bg--primary">
+  <div id="cta" class="iot-cta-area bg--primary">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6">

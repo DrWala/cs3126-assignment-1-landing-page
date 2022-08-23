@@ -5,7 +5,7 @@
         <!-- <span>Get your seat</span> -->
         <h2>Reserve a seat at a study spot in NUS!</h2>
         <p>Seatigo is here to help you reserve a seat at a study spot. Stop searching and start studying!</p>
-        <a href="#" class="btn btn-primary">Get Started</a>
+        <a href="#cta" class="btn btn-primary">Get Started</a>
       </div>
 
       <div class="iot-banner-image">
