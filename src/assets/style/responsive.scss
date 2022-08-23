@@ -1236,9 +1236,6 @@ $value_seven: 1550px;
       &:first-child {
         max-width: 100%;
       }
-      &:last-child {
-        display: none;
-      }
     }
   }
   .animate-border {
@@ -2825,9 +2822,6 @@ $value_seven: 1550px;
       &:first-child {
         max-width: 470px;
       }
-      &:last-child {
-        top: -10px;
-      }
     }
   }
   .iot-team-area {
@@ -2898,17 +2892,13 @@ $value_seven: 1550px;
 
 @media only #{$media} and ($feature_min : $value_seven) {
   .iot-banner-image {
-    right: 90px;
+    right: 160px;
     top: 56%;
     transform: translateY(-50%);
 
     img {
       &:first-child {
-        max-width: 90%;
-      }
-      &:last-child {
-        left: -128px;
-        top: 50px;
+        max-width: 600px;
       }
     }
   }

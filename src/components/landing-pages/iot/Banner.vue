@@ -13,8 +13,7 @@
       </div>
 
       <div class="iot-banner-image">
-        <img src="../../../assets/img/iot-banner-image/1.png" alt="image" />
-        <img src="../../../assets/img/iot-banner-image/2.png" alt="image" />
+        <img src="../../../assets/img/iot-banner-image/studying.png" alt="image" />
       </div>
 
       <div class="animate-border">
