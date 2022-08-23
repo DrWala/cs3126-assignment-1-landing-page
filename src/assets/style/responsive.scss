@@ -1214,7 +1214,7 @@ $value_seven: 1550px;
   }
   .iot-banner-content {
     text-align: center;
-    max-width: 100%;
+    max-width: 100% !important;
 
     span {
       font-size: 14px;
@@ -1233,9 +1233,7 @@ $value_seven: 1550px;
     margin-top: 50px;
 
     img {
-      &:first-child {
-        max-width: 100%;
-      }
+        display: none;
     }
   }
   .animate-border {
@@ -2325,6 +2323,7 @@ $value_seven: 1550px;
     h2 {
       font-size: 30px;
     }
+    max-width: 300px !important;
   }
   .iot-banner-image {
     position: relative;
@@ -2334,9 +2333,7 @@ $value_seven: 1550px;
     margin-top: 80px;
 
     img {
-      &:first-child {
-        max-width: 100%;
-      }
+      max-width: 400px !important;
     }
   }
   .animate-border {
@@ -2819,9 +2816,7 @@ $value_seven: 1550px;
   }
   .iot-banner-image {
     img {
-      &:first-child {
-        max-width: 470px;
-      }
+        max-width: 470px !important;
     }
   }
   .iot-team-area {
@@ -2897,9 +2892,7 @@ $value_seven: 1550px;
     transform: translateY(-50%);
 
     img {
-      &:first-child {
-        max-width: 600px;
-      }
+        max-width: 800px;
     }
   }
   .animate-border span {

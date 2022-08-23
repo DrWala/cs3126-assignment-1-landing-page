@@ -6268,7 +6268,7 @@ IoT Main Banner CSS
 }
 .iot-banner-content {
   max-width: 445px;
-
+  // margin: auto;
   span {
     color: $primary-color;
     font-size: 15px;
@@ -6289,14 +6289,13 @@ IoT Main Banner CSS
 .iot-banner-image {
   position: absolute;
   text-align: center;
-  right: 30px;
+  right: 80px;
   top: 56%;
   transform: translateY(-50%);
 
   img {
-    &:first-child {
-      max-width: 730px;
-    }
+    margin-top: 50px;
+    max-width: 600px;
   }
 }
 .animate-border {
