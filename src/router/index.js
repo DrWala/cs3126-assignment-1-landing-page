@@ -1,4 +1,4 @@
-import { createWebHistory, createRouter } from "vue-router";
+import { createWebHashHistory, createRouter } from "vue-router";
 
 // All Pages
 import Developer from "../components/landing-pages/Developer";
@@ -95,7 +95,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   linkExactActiveClass: "active",
   routes,
   scrollBehavior() {
