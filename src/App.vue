@@ -1,35 +1,17 @@
 <template>
   <div>
-    <HeaderTwo v-if="currentUrl == '/web-hosting'"></HeaderTwo>
-    <HeaderTwo v-else-if="currentUrl == '/static-image-three'"></HeaderTwo>
-    <HeaderThree v-else-if="currentUrl == '/machine-learning'"></HeaderThree>
-    <HeaderThree v-else-if="currentUrl == '/agency-portfolio'"></HeaderThree>
-    <HeaderFour v-else-if="currentUrl == '/digital-agency'"></HeaderFour>
-    <HeaderFive v-else-if="currentUrl == '/bigdata-analytics'"></HeaderFive>
-    <div v-else-if="currentUrl == '/not-found' || currentUrl == '/coming-soon'"></div>
-    <Header v-else></Header>
-    <!-- <PreLoader v-if="isLoading" /> -->
+    <Header></Header>
     <router-view />
-    <div v-if="currentUrl == '/not-found' || currentUrl == '/coming-soon'"></div>
-    <!-- <Footer v-else></Footer> -->
   </div>
 </template>
 
 <script>
 import Header from "./components/layout/Header";
-import HeaderTwo from "./components/layout/HeaderTwo";
-import HeaderThree from "./components/layout/HeaderThree";
-import HeaderFour from "./components/layout/HeaderFour";
-import HeaderFive from "./components/layout/HeaderFive";
 
 export default {
   name: "app",
   components: {
     Header,
-    HeaderTwo,
-    HeaderThree,
-    HeaderFour,
-    HeaderFive,
   },
   data() {
     return {
