@@ -1,4 +1,4 @@
-import { createWebHashHistory, createRouter } from "vue-router";
+import { createWebHistory, createRouter } from "vue-router";
 
 // All Pages
 import Developer from "../components/landing-pages/Developer";
@@ -92,10 +92,11 @@ const routes = [
   { path: "/cart", component: Cart },
   { path: "/checkout", component: Checkout },
   { path: "/details", component: ItemDetails },
+  { path: "/:pathMatch(.*)*", component: Iot },
 ];
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   linkExactActiveClass: "active",
   routes,
   scrollBehavior() {
