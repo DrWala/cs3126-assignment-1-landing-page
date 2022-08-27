@@ -4,7 +4,7 @@
       <div class="container">
         <nav class="navbar navbar-expand-md navbar-light">
           <router-link class="navbar-brand" to="/">
-            <img src="../../assets/img/logo.png" alt="logo" />
+            <img src="../../assets/img/logo2.png" alt="logo" />
           </router-link>
 
           <div
