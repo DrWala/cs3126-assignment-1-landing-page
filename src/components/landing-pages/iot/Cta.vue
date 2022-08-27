@@ -16,11 +16,12 @@
               <form>
                 <div class="form-group">
                   <label>NUSNET Id</label>
-                  <input type="text" class="form-control" placeholder="Enter NUSNET Id" />
+                  <input :disabled="disabled" type="text" class="form-control" placeholder="Enter NUSNET Id" />
                 </div>
-
-                <button type="submit" class="btn btn-primary">Register Now</button>
               </form>
+              <button :class="{ 'btn-success': disabled, 'btn-primary': !disabled }" class="btn" @click="register">
+                {{ registerNow }}
+              </button>
             </div>
           </div>
         </div>
@@ -35,5 +36,21 @@
 <script>
 export default {
   name: "Cta",
+  data() {
+    return {
+      registerNow: "Register Now",
+      disabled: false,
+    };
+  },
+  methods: {
+    register() {
+      this.$toast.success("Successfully registered!", {
+        position: "bottom-right",
+        duration: 5000,
+      });
+      this.registerNow = "Successfully registered!";
+      this.disabled = true;
+    },
+  },
 };
 </script>
