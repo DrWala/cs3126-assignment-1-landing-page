@@ -15,7 +15,7 @@
             </div>
 
             <h3>Reserve a seat through uNivUS</h3>
-            <p>Reserve a seat at any of NUS' hundreds of study spots through uNivUS</p>
+            <p>Reserve a seat at any of NUS' dozens of study spots through uNivUS</p>
           </div>
         </div>
 

@@ -503,6 +503,11 @@ Navbar CSS
     opacity: 0;
     visibility: hidden;
   }
+  .navbar-brand{
+    img {
+      width: 130px;
+    }
+  }
 }
 .startp-nav {
   background: transparent;
